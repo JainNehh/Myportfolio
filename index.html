@@ -288,17 +288,19 @@
             </h3>
 
             <div class="contactus-form-container">
-                <form action="">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                  <input type="hidden" name="access_key" value="9528cb4e-0a91-4480-a143-fc8d0f7a16f1">
+
                 <div class="form-field-container">
                     <input type="text" placeholder="Enter your Name"name="name" class="formfield"/> 
                     <input type="email" placeholder="Enter your E-Mail"name="email" class="formfield"/> 
-                    <input type="text" placeholder="Enter your Subject"name="Subject" class="formfield"/> 
+                    <input type="text" placeholder="Enter your Subject"name="subject" class="formfield"/> 
 <textarea name="message" id="" cols="30" rows="10" placeholder="Enter your Text" class="formfield formfield-textarea"></textarea>
 
                 </div>
                 <div>
-                    <button type="submit" class="btn-pink" id="submit-btn">Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
-                    </button>
+                    <input type="submit" class="btn-pink" id="submit-btn">Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
+                </input>
                 </div>
 
                 </form>
